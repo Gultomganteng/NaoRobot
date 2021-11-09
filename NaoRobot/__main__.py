@@ -75,9 +75,9 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-[✨](https://telegra.ph/file/9c6e5b30022565cbe9f4a.jpg) ʜᴇʟʟᴏ  ᴍʏ ɴᴀᴍᴇ ɪs ɴᴀᴏ ᴛᴏᴍᴏʀɪ
-ɪ'ᴍ ᴀ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇ ʙᴏᴛ ꜰᴏʀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀsɪʟʏ!
-ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ [Skyzu​](https://t.me/skyzuex) 
+[✨](https://telegra.ph/file/0f5d7dae8d57788e57397.jpg) ʜɪ ɢᴜʏs, ᴀᴋᴜ ᴀᴅᴀʟᴀʜ ʀᴏʙᴏᴛ ᴋᴇʟɪɴᴄɪ
+ᴀᴋᴜ ᴅɪsɪɴɪ ʙɪsᴀ ᴍᴇᴍʙᴀɴᴛᴜ ɢʀᴜᴘ ᴋᴀʟɪᴀɴ ᴀɢᴀʀ ᴛᴇᴛᴀᴘ ᴋᴏɴᴅᴜsɪꜰ ᴅᴀɴ ᴍᴇᴍʙᴀsᴍɪ ᴘᴀʀᴀ ᴊᴀᴍᴇᴛ ᴛᴇʟᴇ ʏᴀɴɢ ɴᴏʀᴀᴋ!!!
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ [ᴍʀ.ɢ​](https://t.me/Tom_gultom) 
 """
 
 buttons = [
@@ -100,10 +100,10 @@ buttons = [
 HELP_STRINGS = """
 ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ."""
 
-nao_IMG = "https://telegra.ph/file/9c6e5b30022565cbe9f4a.jpg"
+nao_IMG = "https://telegra.ph/file/0f5d7dae8d57788e57397.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @skyzuX \
+ You can support the project by contacting @Tom_gultom \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -359,7 +359,7 @@ def nao_about_callback(update, context):
     query = update.callback_query
     if query.data == "nao_":
         query.message.edit_text(
-            text=""" 💡 I'm *NaoRobot*, a powerful group management bot built to help you manage your group easily.
+            text=""" 💡 I'm *KelinciRobot*, a powerful group management bot built to help you manage your group easily.
                  \n• I can restrict users.
                  \n• I can greet users with customizable welcome messages and even set a group's rules.
                  \n• I have an advanced anti-flood system.
@@ -373,9 +373,9 @@ def nao_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Source", url="https://github.com/Skyzu/NaoRobot"
+                    InlineKeyboardButton(text="Channel", url="https://t.me/bahagiaslaluu"
                     ),
-                    InlineKeyboardButton(text="Dev", url="https://t.me/skyzuex")
+                    InlineKeyboardButton(text="Dev", url="https://t.me/Tom_gultom")
                  ],
                  [
                     InlineKeyboardButton(text="🔙 Back", callback_data="nao_back")
